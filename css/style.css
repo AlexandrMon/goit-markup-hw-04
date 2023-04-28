@@ -16,8 +16,7 @@ ul{margin-top: 0;
            margin-left: auto;
            margin-right: auto;
            padding-left:15px;
-           padding-right:15px;
-           }
+           padding-right:15px;}
 
 img{display: block;}
 a{display: block;}
@@ -95,8 +94,7 @@ body{ font-family:'Roboto',sans-serif;
 .menu-link:hover,.menu-link:focus{color: var(--color-six);}
  
 .adress{font-style: normal;
-        align-items: center;
-              }  
+        align-items: center;}  
 
 
 .mail {font-size: 16px;
