@@ -79,7 +79,9 @@ body{ font-family:'Roboto',sans-serif;
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: var(--color-too);
-      margin-right:76px;}
+      margin-right:76px;
+      box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .logo-one{color: var(--color-one);}
 .logo-too{color: var(--color-five);}
 
@@ -237,8 +239,9 @@ body{ font-family:'Roboto',sans-serif;
              background-color:#4d5ae5;}
 .social-list:hover,.social-list:focus {background-color: green;}
              
-.size-svg-one{ width:16px;
-               height:16px;
+.size-svg-one{ 
+              /* width:16px; */
+               /* height:16px; */
                fill: #f4f4fd;}
 
 
@@ -254,12 +257,10 @@ body{ font-family:'Roboto',sans-serif;
 }
 
   
-.size-svg {
-         width: 64px; 
-         height: 64px;} 
-.size-svg-customers{width: 104px;
-                    height: 56px;          
-}         
+ 
+/* .size-svg-customers{width: 104px; */
+                    /* height: 56px;           */
+/* }          */
  
 .m-bottom {margin-bottom: 8px;}
 .card-portfolio {
@@ -314,8 +315,12 @@ body{ font-family:'Roboto',sans-serif;
         padding-bottom:100px;}
 
 .p-footer{width:264px ;
-         color:var(--color-five);
-         }
+         color:var(--color-five);}
+
+.line-footer {display: flex;
+              align-items: baseline
+}
+         
 .p-footer-one{width: 96px;
               color: var(--color-five);
               margin-bottom:8px;
