@@ -144,7 +144,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
       background-position: center;
       background-color: rgba(46, 47, 66, 0.7);
       max-width: 1440px;
-      margin-bottom: 120px;
+      /* margin-bottom: 120px; */
 }
       
 
@@ -198,15 +198,26 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
       box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
        }         
 
-.section-one {background-color: var(--color-five);
+.advantages{background-color:var(--color-three); 
+             padding-top: 120px;
+             padding-bottom: 120px;}
+
+.what-are-we-doing{background-color: var(--color-three);
+                   padding-top: 120px;
+                   padding-bottom: 120px;}
+
+ .customers {background-color: var(--color-three);
+             padding-top: 120px;
+             padding-bottom: 120px;}
+
+
+       
+.our-team{background-color: var(--color-five);
           padding-top:120px; 
-          padding-bottom:120px;
-          margin-bottom: 120px; 
-       }
-.section {background-color:var(--color-three); 
-          margin-bottom: 120px;     
-       }
-.section-portfolio{background-color: var(--color-three);
+          padding-bottom:120px;}
+
+
+.portfolio{background-color: var(--color-three);
                    padding-top: 96px;
                    padding-bottom: 120px;}
 
