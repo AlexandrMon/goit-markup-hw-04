@@ -6,7 +6,7 @@
        --color-six: #404bbf;
        --color-seven:#e7e9fc;
        --color-eight:#8e8f99;
-       --color-nine:#31d00a; 
+       --color-nine:#31d0aa; 
  }
 
 h1, h2,h3,p{margin-top:0;
@@ -235,10 +235,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
              background-color:var(--color-too);}
 .social-list:hover,.social-list:focus {background-color: var(--color-six);}
              
-.size-svg-one{ 
-              /* width:16px; */
-               /* height:16px; */
-               fill: var(--color-seven);}
+.color-icons-our-team {fill: var(--color-five);}
 
 
 .icon-conteiner {
@@ -303,7 +300,9 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
                                             border-color:var(--color-six);}
 
 .customers-icon-size{width: calc((100% - 120px) / 6);
-                     height: 88px;}       
+                     height: 88px;}
+
+.color-icons-customers{fill: currentColor;}                     
        
 
 .footer{background-color:var(--color-one);
