@@ -295,8 +295,7 @@ body{ font-family:'Roboto',sans-serif;
               border: 1px solid var(--color-eight);
               border-radius: 4px;}  
                 
-.customers-icon:hover,.customers-icon:focus{background-color:var(--color-six);
-                                            color:var(--color-six);
+.customers-icon:hover,.customers-icon:focus{color:var(--color-six);
                                             border-color:var(--color-six);}
 
 .customers-icon-size{width: calc((100% - 120px) / 6);
