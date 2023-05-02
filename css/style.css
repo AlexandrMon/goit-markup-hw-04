@@ -20,7 +20,7 @@ ul{margin-top: 0;
 
 img{display: block;}
 a{display: block;} 
-svg{display:block;} 
+/* svg{display:block;}  */
 
 
 body{ font-family:'Roboto',sans-serif;
@@ -215,8 +215,8 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
        display: block;
        padding-top: 32px; 
        padding-bottom: 32px; 
-       padding-left: 16px;  
-       padding-right: 16px; 
+       /* padding-left: 16px;   */
+       /* padding-right: 16px;  */
        text-align: center;
        justify-content:center;}  
 
@@ -231,7 +231,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .center{text-align:center;}
 .center-icon{justify-content: center;}
 .social-list{display:flex;
-             margin-top: 8px;
+             margin-top: 8px; 
              height:100%;
              justify-content: center;
              align-items: center; 
@@ -297,7 +297,8 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
               margin-bottom:8px;}
 
 
-.right-margin{gap: 24px;}              
+.right-margin{justify-content: center;
+              gap: 24px;}              
 .customers-icon{
               display: flex;
               margin-top: 8px;
@@ -326,17 +327,32 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
           }
 
 .line-footer {display: flex;
-              align-items: baseline
+              align-items: baseline;
+              gap:120px; 
 }
          
-.p-footer-one{width: 96px;
+.p-footer-one{font-weight: 500;
               font-size: 16px;
               line-height: 1.5;
               letter-spacing: 0.02em;
-              color: var(--color-five);
-              margin-bottom:8px;
+              color: var(--color-three);
+              margin-bottom:16px;
 }         
-.footer-margin{gap:120px;}          
+/* .footer-margin{gap:120px;}  */
+
+.social-list-footer {
+       display: flex;
+       height: 100%;
+       justify-content: center;
+       align-items: center;
+       width: 40px;
+       height: 40px;
+       border-radius: 50%;
+       background-color: #4d5ae5;
+}
+
+.social-list-footer:hover,.social-list-footer:focus {background-color:#31d00a;}
+
 
 
 .logo-footer{font-family:'Raleway',sans-serif;
